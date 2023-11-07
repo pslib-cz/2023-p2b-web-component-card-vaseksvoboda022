@@ -1,0 +1,45 @@
+body {
+    background-image: url(./img/bg.webp);
+    background-repeat: no-repeat;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.karta-obrazek {
+    border-color: rgb(238, 236, 236);
+    border-style: solid;
+    overflow: hidden;
+    margin: auto auto;
+    background-color: rgb(238, 236, 236);
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    top: 6em;
+}
+
+.karta-obrazek--kulaty {
+    border-radius: 100%;
+}
+
+.karta-telo {
+    background-color: rgb(238, 236, 236);
+    padding: 5.5em 1em 1em 1em;
+}
+
+.karta-jmeno__vyrazne {
+    font-size: 1.25rem;
+}
+
+.karta-jmeno__podtrzeni{
+    border: 0px;
+    border-bottom: 1.5px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 0.4em;
+}
+
+.karta-obrazek__stin{
+    box-shadow: 0px 0px 10px 1px rgb(126, 126, 126);
+}
+.karta-telo__stin {
+    box-shadow: 5px 5px 15px rgb(126, 126, 126);
+}

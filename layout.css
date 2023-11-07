@@ -1,0 +1,8 @@
+.karta {
+    display: inline-block;
+    max-width: 20rem;
+    margin: 0em 0.5em;
+}
+img {
+    width: 100%;
+}

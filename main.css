@@ -1,10 +1,15 @@
 body {
     background-image: url(./img/bg.webp);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family:Arial, Helvetica, sans-serif;
 }
+.icons {
+    font-family: 'icomoon';
+}
 
-.karta-obrazek {
+.karta__obrazek {
     border-color: rgb(238, 236, 236);
     border-style: solid;
     overflow: hidden;
@@ -16,20 +21,24 @@ body {
     top: 6em;
 }
 
-.karta-obrazek--kulaty {
+.karta__obrazek--kulaty {
     border-radius: 100%;
 }
 
-.karta-telo {
+.karta__telo {
     background-color: rgb(238, 236, 236);
     padding: 5.5em 1em 1em 1em;
 }
 
-.karta-jmeno__vyrazne {
-    font-size: 1.25rem;
+.karta__jmeno__vyrazne {
+    font-size: 1.5rem;
 }
 
-.karta-jmeno__podtrzeni{
+p {
+    font-size: 1.25;
+}
+
+.karta__jmeno__podtrzeni{
     border: 0px;
     border-bottom: 1.5px;
     border-style: solid;
@@ -37,9 +46,9 @@ body {
     padding-bottom: 0.4em;
 }
 
-.karta-obrazek__stin{
+.karta__obrazek__stin{
     box-shadow: 0px 0px 10px 1px rgb(126, 126, 126);
 }
-.karta-telo__stin {
+.karta__telo__stin {
     box-shadow: 5px 5px 15px rgb(126, 126, 126);
 }

@@ -9,6 +9,9 @@
 }
 
 .main{
+    display: flex;
     max-width: max-content;
+    overflow-x: auto;
     margin: auto;
+    padding: 1.2rem;
 }
